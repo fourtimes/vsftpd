@@ -68,4 +68,4 @@ sudo systemctl status vsftpd
 
 
 **vsftpd localmachine connection:**
-![image](https://user-images.githubusercontent.com/91359308/170261284-10967855-40ca-4861-a18e-2156d8da2831.png)
+![image](https://user-images.githubusercontent.com/91359308/173179019-a0a3413f-dcf6-4ad4-b38d-5ebe582cba2c.png)
