@@ -2,7 +2,8 @@
 
 ```bash
 # Install the vsftpd packages
-sudo apt update && apt install vsftpd -y
+sudo apt update 
+sudo apt install vsftpd -y
 
 # create the new user
 sudo adduser ashli
