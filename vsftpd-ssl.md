@@ -1,20 +1,22 @@
 
-**1. Install the vsftpd using this url** - 
+**1. Install the vsftpd using this url** 
+
 https://github.com/fourtimes/vsftpd/blob/main/vsftpd-with-remoteuser.md
 
 **2. vsftpd with SSL**
+
+Install the openssl package
 ```sh
 sudo apt-get update
-sudo apt-get install vsftpd openssl
+sudo apt-get install openssl
 ```
-generate the ssl key
+Generate the ssl key
 ```sh
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/vsftpd.key -out /etc/ssl/certs/vsftpd.crt
 ```
 adding the ssl configuration
 ```sh
 # sudo nano /etc/vsftpd.conf
-
 rsa_cert_file=/etc/ssl/certs/vsftpd.crt
 rsa_private_key_file=/etc/ssl/private/vsftpd.key
 ssl_enable=YES
