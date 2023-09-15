@@ -1,5 +1,5 @@
 
-**1. Install the vsftpd using this url** 
+**1. Install the vsftpd using the below url** 
 
 https://github.com/fourtimes/vsftpd/blob/main/vsftpd-with-remoteuser.md
 
